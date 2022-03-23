@@ -6,6 +6,7 @@
 }
 
 body {
+  margin-top: 40px;
   display: flex;
   justify-content: center;
 }
@@ -25,7 +26,7 @@ body {
 }
 
 .animate {
-  animation: jump 400ms infinite;
+  animation: jump 450ms infinite;
 }
 
 #block {
@@ -58,6 +59,6 @@ body {
     left: 500px;
   }
   100% {
-    left: -25px;
+    left: -20px;
   }
 }
