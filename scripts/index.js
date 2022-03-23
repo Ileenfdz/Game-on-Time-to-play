@@ -62,11 +62,11 @@ setInterval(function () {
 
     // if(blockLeft > )
 
-    // if (blockLeft < 20 && blockLeft > 0 && characterTop >= 130) {
-    //     block.style.animation = "none";
-    //     block.style.display = "none";
-    //     showAlert("Sorry, you lost");
-    // }
+    if (blockLeft < 20 && blockLeft > 0 && characterTop >= 130) {
+        block.style.animation = "none";
+        block.style.display = "none";
+        showAlert("Sorry, you lost");
+    }
 
 }, 10);
 
